@@ -1,6 +1,6 @@
 #Calque_1 {
-    width: 200px;
-    height: 75px;
+    width: 115px;
+    height: auto;
 }
 .cls-1,.cls-2{
 fill:none;
@@ -23,16 +23,26 @@ fill:none;
 	stroke-width:12px;
 }
 .cls-5{
-	font-size:72px;
-	fill:#221f1f;
-	font-family:Bauhaus93, Bauhaus 93;
-	letter-spacing:0.05em;
+	font-size: 65px;
+    fill: #221f1f;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    text-transform: capitalize;
 }
-.navbar-brand,
-.navbar-nav li a {
-    line-height: 5px;
-    height: 100px;
-}
+
 .navbar-default{
 	margin-bottom: 5px;
+}
+#social-media{
+    font-size: 24px;
+    height: 35px;
+    letter-spacing: -30px;
+}
+#social-container{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#social-container li{
+	float: right;
 }
