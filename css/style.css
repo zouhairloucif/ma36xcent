@@ -1,0 +1,48 @@
+#Calque_1 {
+    width: 115px;
+    height: auto;
+}
+.cls-1,.cls-2{
+fill:none;
+}
+.cls-1,.cls-2,.cls-3,.cls-4{
+	stroke:#221f1f;
+	stroke-miterlimit:10;
+}
+.cls-1,.cls-2,.cls-3{
+	stroke-width:20px;
+}
+.cls-2{
+	stroke-linecap:round;
+}
+.cls-3{
+	fill:#0071bc;
+}
+.cls-4{
+	fill:#fff;
+	stroke-width:12px;
+}
+.cls-5{
+	font-size: 65px;
+    fill: #221f1f;
+    letter-spacing: 0.05em;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.navbar-default{
+	margin-bottom: 5px;
+}
+#social-media{
+    font-size: 24px;
+    height: 35px;
+    letter-spacing: -30px;
+}
+#social-container{
+	display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+#social-container li{
+	float: right;
+}
